@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Suttree",
+      "path": "zz/Suttree.md"
+    },
+    {
       "basename": "Cormac McCarthy",
       "path": "zz/Cormac McCarthy.md"
+    },
+    {
+      "basename": "Stella Maris",
+      "path": "zz/Stella Maris.md"
+    },
+    {
+      "basename": "The Passenger",
+      "path": "zz/The Passenger.md"
+    },
+    {
+      "basename": "The Orchard Keeper",
+      "path": "zz/The Orchard Keeper.md"
+    },
+    {
+      "basename": "The Crossing",
+      "path": "zz/The Crossing.md"
+    },
+    {
+      "basename": "Outer Dark",
+      "path": "zz/Outer Dark.md"
+    },
+    {
+      "basename": "Child of God",
+      "path": "zz/Child of God.md"
     },
     {
       "basename": "mccarthy life story",
@@ -171,34 +199,6 @@
     {
       "basename": "top 5 upanishads",
       "path": "zz/top 5 upanishads.md"
-    },
-    {
-      "basename": "upanishads set 1",
-      "path": "zz/upanishads set 1.md"
-    },
-    {
-      "basename": "PHILOSOPHY index",
-      "path": "content/PHILOSOPHY index.md"
-    },
-    {
-      "basename": "The Raven",
-      "path": "zz/The Raven.md"
-    },
-    {
-      "basename": "Edgar Allan Poe",
-      "path": "zz/z/Edgar Allan Poe.md"
-    },
-    {
-      "basename": "American Literature",
-      "path": "zz/z/American Literature.md"
-    },
-    {
-      "basename": "curses",
-      "path": "zz/curses.md"
-    },
-    {
-      "basename": "real answers",
-      "path": "knowledge/real answers.md"
     }
   ],
   "omittedPaths": [],
