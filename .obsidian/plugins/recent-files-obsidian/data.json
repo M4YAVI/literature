@@ -5,6 +5,10 @@
       "path": "authors/index.md"
     },
     {
+      "basename": "kafka",
+      "path": "zz/kafka.md"
+    },
+    {
       "basename": "5 cm per sec",
       "path": "zz/z/5 cm per sec.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Agatha Christie",
       "path": "zz/z/Agatha Christie.md"
-    },
-    {
-      "basename": "Mary Shelley",
-      "path": "zz/z1/Mary Shelley.md"
     }
   ],
   "omittedPaths": [],

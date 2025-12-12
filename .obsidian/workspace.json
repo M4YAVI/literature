@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76f857c814ef76e7",
+        "id": "d89cdc6337d2b2a1",
         "type": "tabs",
         "children": [
           {
-            "id": "51984215ddda6ee0",
+            "id": "9610bf02cef70b00",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -160,13 +160,23 @@
               "icon": "lucide-list",
               "title": "Outline of kororo connect"
             }
+          },
+          {
+            "id": "ecbc5f0558e10cb7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,11 +187,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "tldraw:Create new tldrawing": false
+      "tldraw:Create new tldrawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51984215ddda6ee0",
+  "active": "9610bf02cef70b00",
   "lastOpenFiles": [
+    "zz/kafka.md",
     "authors/index.md",
     "authors",
     "zz",
@@ -210,7 +222,6 @@
     "my creation/myworks/Untitled.md",
     "my creation/myworks/goated works by me.md",
     "zz/die before you die.md",
-    "my creation/Untitled.md",
     "knowledge",
     "my creation",
     "art",
