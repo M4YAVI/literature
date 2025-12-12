@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Black",
+  "interfaceFontFamily": "",
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "raycast"
+  ]
+}

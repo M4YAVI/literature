@@ -1,0 +1,454 @@
+body {
+  --ray-accent: #8c6cff;
+  --ray-accent-strong: #b7a3ff;
+  --ray-accent-soft: rgba(140, 108, 255, 0.18);
+  --ray-surface: rgba(26, 28, 39, 0.92);
+  --ray-surface-elevated: rgba(36, 40, 56, 0.94);
+  --ray-border: rgba(255, 255, 255, 0.06);
+  --ray-divider: rgba(255, 255, 255, 0.08);
+  --ray-text-dim: rgba(255, 255, 255, 0.64);
+  --ray-radius-lg: 14px;
+  --ray-radius-md: 10px;
+  --ray-radius-pill: 999px;
+}
+.theme-light {
+  --ray-surface: rgba(248, 249, 252, 0.97);
+  --ray-surface-elevated: rgba(241, 242, 250, 0.99);
+  --ray-border: rgba(37, 41, 57, 0.08);
+  --ray-divider: rgba(37, 41, 57, 0.1);
+  --ray-text-dim: rgba(37, 41, 57, 0.68);
+}
+
+/* 1. Hero Title Capsule */
+.markdown-preview-view h1:first-of-type {
+  position: relative;
+  padding: 22px 28px;
+  margin-bottom: 24px;
+  border-radius: var(--ray-radius-lg);
+  background: linear-gradient(135deg, rgba(140, 108, 255, 0.2), rgba(63, 220, 255, 0.18));
+  color: #ffffff;
+  box-shadow: 0 34px 80px -48px rgba(71, 59, 146, 0.7);
+  border: 1px solid rgba(140, 108, 255, 0.24);
+}
+.theme-light .markdown-preview-view h1:first-of-type {
+  color: #1b1e2a;
+  box-shadow: 0 24px 60px -48px rgba(71, 59, 146, 0.35);
+}
+
+/* 2. Metadata Dock */
+.markdown-preview-view pre.frontmatter {
+  background: var(--ray-surface);
+  border: 1px solid var(--ray-border);
+  border-radius: var(--ray-radius-lg);
+  padding: 16px 20px;
+  box-shadow: 0 24px 60px -48px rgba(15, 18, 30, 0.7);
+  font-size: 0.85em;
+  line-height: 1.55;
+}
+
+/* 3. Command Palette Callout */
+.callout[data-callout="command"] {
+  --callout-icon: lucide-command;
+  --callout-color: 259;
+  background: var(--ray-surface-elevated);
+  border: 1px solid var(--ray-border);
+  border-radius: var(--ray-radius-lg);
+  box-shadow: 0 28px 70px -56px rgba(0, 0, 0, 0.8);
+  padding: 18px 20px;
+}
+.callout[data-callout="command"] .callout-title {
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ray-text-dim);
+}
+.callout[data-callout="command"] .callout-content {
+  margin-top: 8px;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* 4. Quick Action Buttons */
+.markdown-preview-view a.action-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: var(--ray-radius-pill);
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, rgba(140, 108, 255, 0.28), rgba(80, 178, 255, 0.22));
+  color: #f9f9ff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+.theme-light .markdown-preview-view a.action-button {
+  color: #1f2330;
+}
+.markdown-preview-view a.action-button[data-variant="secondary"] {
+  background: var(--ray-surface);
+  color: var(--ray-text-dim);
+  border: 1px solid var(--ray-border);
+}
+.markdown-preview-view a.action-button:is(:hover, :focus-visible) {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 30px -18px rgba(140, 108, 255, 0.55);
+}
+
+/* 5. Panel Grid */
+.ray-panel-grid {
+  display: grid;
+  gap: 18px;
+  margin: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.ray-panel-grid > * {
+  background: var(--ray-surface);
+  border-radius: var(--ray-radius-lg);
+  border: 1px solid var(--ray-border);
+  padding: 18px 20px;
+  box-shadow: 0 18px 45px -40px rgba(0, 0, 0, 0.8);
+}
+.ray-panel-grid > * h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+.ray-panel-grid > * p {
+  margin: 0;
+  color: var(--ray-text-dim);
+}
+
+/* 6. Timeline Flow */
+.ray-timeline {
+  position: relative;
+  list-style: none;
+  padding-left: 28px;
+  margin: 24px 0;
+}
+.ray-timeline::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 4px;
+  bottom: 4px;
+  width: 2px;
+  background: linear-gradient(to bottom, rgba(140, 108, 255, 0.7), rgba(90, 214, 255, 0.7));
+}
+.ray-timeline > li {
+  position: relative;
+  margin-bottom: 20px;
+  background: var(--ray-surface);
+  border-radius: var(--ray-radius-md);
+  border: 1px solid var(--ray-border);
+  padding: 14px 18px;
+  box-shadow: 0 16px 44px -40px rgba(0, 0, 0, 0.8);
+}
+.ray-timeline > li::before {
+  content: "";
+  position: absolute;
+  left: -22px;
+  top: 16px;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 2px solid rgba(140, 108, 255, 0.9);
+  background: var(--background-primary);
+}
+.ray-timeline time {
+  display: block;
+  font-size: 0.78em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ray-text-dim);
+  margin-bottom: 6px;
+}
+
+/* 7. Taskboard Callout */
+.callout[data-callout="taskboard"] {
+  --callout-icon: lucide-check-square;
+  --callout-color: 200;
+  background: var(--ray-surface-elevated);
+  border: 1px solid var(--ray-border);
+  border-radius: var(--ray-radius-lg);
+  box-shadow: 0 28px 70px -60px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+.callout[data-callout="taskboard"] .callout-title {
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ray-text-dim);
+}
+.callout[data-callout="taskboard"] .callout-content > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.callout[data-callout="taskboard"] .callout-content > ul > li.task-list-item {
+  background: var(--ray-surface);
+  border-radius: var(--ray-radius-lg);
+  border: 1px solid var(--ray-border);
+  padding: 14px 16px 12px;
+  box-shadow: 0 18px 40px -34px rgba(0, 0, 0, 0.75);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.callout[data-callout="taskboard"] .callout-content > ul > li.task-list-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(140, 108, 255, 0.55);
+}
+.callout[data-callout="taskboard"] li.task-list-item.is-checked {
+  opacity: 0.6;
+  border-left: 4px solid rgba(92, 214, 175, 0.85);
+  background: linear-gradient(135deg, rgba(92, 214, 175, 0.12), rgba(92, 214, 175, 0.08));
+}
+.callout[data-callout="taskboard"] .task-list-item-checkbox {
+  transform: scale(1.15);
+  margin-right: 10px;
+}
+
+/* 8. Gradient Progress Meter */
+.ray-progress {
+  --value: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--ray-surface);
+  border-radius: var(--ray-radius-pill);
+  border: 1px solid var(--ray-border);
+  padding: 10px 16px;
+  font-size: 0.92em;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+.ray-progress::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: calc(var(--value) * 1%);
+  background: linear-gradient(135deg, rgba(140, 108, 255, 0.45), rgba(80, 178, 255, 0.4));
+  pointer-events: none;
+  z-index: 0;
+  transition: width 0.3s ease;
+}
+.ray-progress span,
+.ray-progress strong {
+  position: relative;
+  z-index: 1;
+}
+.ray-progress strong {
+  font-variant-numeric: tabular-nums;
+}
+
+/* 9. Datasheet Tables */
+.markdown-preview-view table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 18px 0;
+  background: var(--ray-surface);
+  border: 1px solid var(--ray-border);
+  border-radius: var(--ray-radius-lg);
+  overflow: hidden;
+  box-shadow: 0 20px 60px -56px rgba(0, 0, 0, 0.85);
+}
+.markdown-preview-view table thead {
+  background: linear-gradient(135deg, rgba(140, 108, 255, 0.25), rgba(80, 178, 255, 0.18));
+  font-size: 0.82em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.markdown-preview-view table th,
+.markdown-preview-view table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--ray-divider);
+}
+.markdown-preview-view table tr:last-of-type td {
+  border-bottom: none;
+}
+.markdown-preview-view table tbody tr:hover {
+  background: rgba(140, 108, 255, 0.08);
+}
+
+/* 10. Command Chips */
+span.command-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--ray-radius-pill);
+  background: rgba(140, 108, 255, 0.18);
+  color: #ffffff;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.theme-light span.command-chip {
+  color: #1f2330;
+}
+span.command-chip::before {
+  content: attr(data-mod);
+  font-weight: 500;
+  opacity: 0.75;
+}
+span.command-chip::after {
+  content: attr(data-key);
+  background: rgba(0, 0, 0, 0.14);
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.theme-light span.command-chip::after {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+/* 11. Quote Card */
+.markdown-preview-view blockquote {
+  position: relative;
+  margin: 20px 0;
+  padding: 18px 24px 18px 32px;
+  background: var(--ray-surface);
+  border-radius: var(--ray-radius-lg);
+  border: 1px solid var(--ray-border);
+  box-shadow: 0 24px 60px -52px rgba(0, 0, 0, 0.8);
+  color: var(--ray-text-dim);
+}
+.markdown-preview-view blockquote::before {
+  content: "“";
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  font-size: 2.6em;
+  color: rgba(140, 108, 255, 0.28);
+  font-weight: 700;
+}
+
+/* 12. Collapsible Insight Drawer */
+details.ray-drawer {
+  background: var(--ray-surface);
+  border-radius: var(--ray-radius-lg);
+  border: 1px solid var(--ray-border);
+  padding: 14px 18px;
+  margin: 18px 0;
+  box-shadow: 0 20px 50px -48px rgba(0, 0, 0, 0.8);
+}
+details.ray-drawer[open] {
+  border-color: rgba(140, 108, 255, 0.4);
+}
+details.ray-drawer summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #f9f9ff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.theme-light details.ray-drawer summary {
+  color: #1f2330;
+}
+details.ray-drawer summary::after {
+  content: "▸";
+  font-size: 0.85em;
+  transition: transform 0.2s ease;
+  color: var(--ray-text-dim);
+}
+details.ray-drawer[open] summary::after {
+  transform: rotate(90deg);
+}
+details.ray-drawer summary::-webkit-details-marker {
+  display: none;
+}
+details.ray-drawer > *:not(summary) {
+  margin-top: 12px;
+}
+
+/* 13. Captioned Media Frame */
+figure.ray-figure {
+  margin: 24px 0;
+  background: var(--ray-surface);
+  border-radius: var(--ray-radius-lg);
+  border: 1px solid var(--ray-border);
+  overflow: hidden;
+  box-shadow: 0 30px 70px -56px rgba(0, 0, 0, 0.8);
+}
+figure.ray-figure img,
+figure.ray-figure video {
+  display: block;
+  width: 100%;
+}
+figure.ray-figure figcaption {
+  padding: 12px 16px;
+  font-size: 0.84em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ray-text-dim);
+  background: rgba(0, 0, 0, 0.16);
+}
+.theme-light figure.ray-figure figcaption {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* 14. Checklist Lanes Board */
+.ray-checkboard {
+  display: grid;
+  gap: 18px;
+  margin: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.ray-checkboard > section {
+  background: var(--ray-surface);
+  border-radius: var(--ray-radius-lg);
+  border: 1px solid var(--ray-border);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 20px 60px -50px rgba(0, 0, 0, 0.8);
+}
+.ray-checkboard > section > h3 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78em;
+  color: var(--ray-text-dim);
+}
+.ray-checkboard ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+/* 15. Status Pulse Callout */
+.callout[data-callout="status"] {
+  --callout-icon: lucide-activity;
+  --callout-color: 194;
+  background: linear-gradient(135deg, rgba(76, 225, 208, 0.25), rgba(140, 108, 255, 0.16));
+  border: 1px solid rgba(76, 225, 208, 0.4);
+  border-radius: var(--ray-radius-lg);
+  box-shadow: 0 28px 80px -60px rgba(0, 0, 0, 0.75);
+  padding: 18px 20px;
+}
+.callout[data-callout="status"] .callout-title {
+  font-size: 0.92em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ray-text-dim);
+}
+.callout[data-callout="status"] .callout-content {
+  margin-top: 8px;
+  display: grid;
+  gap: 6px;
+}
+.callout[data-callout="status"] .callout-content strong {
+  font-variant-numeric: tabular-nums;
+  color: #ffffff;
+}
+.theme-light .callout[data-callout="status"] .callout-content strong {
+  color: #1f2330;
+}

@@ -1,0 +1,7 @@
+{
+  "font_folder": ".obsidian/fonts/",
+  "font": "Mom�t___.ttf",
+  "force_mode": true,
+  "custom_css_mode": true,
+  "custom_css": "\n.caveat-bold * {\n\t\tfont-family: 'caveat-bold' !important;\n\t\t}"
+}
