@@ -1,0 +1,1 @@
+a stray dog with hands.

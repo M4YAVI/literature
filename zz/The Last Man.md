@@ -1,0 +1,1 @@
+"Everyone dies, and the narrator is left alone to write the book."
