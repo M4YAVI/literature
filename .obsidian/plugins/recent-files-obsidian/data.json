@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Suttree",
-      "path": "zz/Suttree.md"
+      "basename": "No Country for Old Men",
+      "path": "No Country for Old Men.md"
     },
     {
       "basename": "Cormac McCarthy",
       "path": "zz/Cormac McCarthy.md"
+    },
+    {
+      "basename": "All the Pretty Horses",
+      "path": "All the Pretty Horses.md"
+    },
+    {
+      "basename": "Cities of the Plain",
+      "path": "zz/Cities of the Plain.md"
+    },
+    {
+      "basename": "Suttree",
+      "path": "zz/Suttree.md"
     },
     {
       "basename": "Stella Maris",
@@ -187,18 +199,6 @@
     {
       "basename": "Untitled",
       "path": "my creation/Untitled.md"
-    },
-    {
-      "basename": "top 5 upanishads set -2",
-      "path": "zz/top 5 upanishads set -2.md"
-    },
-    {
-      "basename": "The Upanishads",
-      "path": "zz/The Upanishads.md"
-    },
-    {
-      "basename": "top 5 upanishads",
-      "path": "zz/top 5 upanishads.md"
     }
   ],
   "omittedPaths": [],
