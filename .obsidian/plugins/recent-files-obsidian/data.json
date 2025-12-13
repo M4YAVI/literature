@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "No Country for Old Men",
-      "path": "zz/No Country for Old Men.md"
+      "basename": "index",
+      "path": "movies/index.md"
+    },
+    {
+      "basename": "There will be blood",
+      "path": "zz/There will be blood.md"
+    },
+    {
+      "basename": "index",
+      "path": "authors/index.md"
     },
     {
       "basename": "index",
       "path": "best lines/index.md"
     },
     {
-      "basename": "index",
-      "path": "authors/index.md"
+      "basename": "No Country for Old Men",
+      "path": "zz/No Country for Old Men.md"
     },
     {
       "basename": "Cormac McCarthy",
@@ -191,14 +199,6 @@
     {
       "basename": "goated works by me",
       "path": "my creation/myworks/goated works by me.md"
-    },
-    {
-      "basename": "die before you die",
-      "path": "zz/die before you die.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "my creation/Untitled.md"
     }
   ],
   "omittedPaths": [],

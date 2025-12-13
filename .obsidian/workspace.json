@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zz/No Country for Old Men.md",
+                "file": "movies/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "No Country for Old Men"
+              "title": "index"
             }
           }
         ]
@@ -191,12 +191,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9610bf02cef70b00",
+  "active": "2b95397c74dcc08d",
   "lastOpenFiles": [
-    "best lines/index.md",
+    "zz/There will be blood.md",
+    "movies/index.md",
     "authors/index.md",
-    "zz/Cormac McCarthy.md",
+    "best lines/index.md",
     "zz/No Country for Old Men.md",
+    "zz/Cormac McCarthy.md",
     "zz/wishful.md",
     "zz/All the Pretty Horses.md",
     "zz/Cities of the Plain.md",
@@ -222,10 +224,8 @@
     "animes",
     "movies",
     "novels",
-    "zz/kafka.md",
     "authors",
     "zz",
-    "5cm lines.md",
     "art/novels",
     "knowledge",
     "my creation",
