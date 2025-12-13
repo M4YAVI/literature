@@ -134,26 +134,6 @@ Why?
 
 ---
 
-## The real joke
-
-**If Chigurh is truly fate — why does he need the coin toss at all?**
-
-Carla Jean won't play. She refuses the game.
-
-She tells him: _I'm not choosing. I've already accepted what will happen._
-
-She's **spiritually dead** — defeated by Moss's death. She's surrendered.
-
-And Chigurh... **still offers her the coin.**
-
-Why?
-
-Because **he's not fate. He's a man performing fate.**
-
-He _needs_ the ritual. He _needs_ her to participate. He _needs_ the coin to justify what he was going to do anyway.
-
----
-
 ## What Carla Jean understood
 
 She saw through him:
@@ -184,7 +164,7 @@ And the universe — through the accident — **demonstrates exactly that**: _Yo
 
 ## The real irony
 
-Chigurh asks a _dead woman_ (spiritually) to flip a coin.
+Chigurh asks  (spiritually) to flip a coin.
 
 She refuses.
 
@@ -195,5 +175,3 @@ Just randomness.
 Just like death.
 
 **She already knew what was coming. The coin was always a lie.**
-
-This is actually much more devastating than my first reading. Thank you for this — it's a better interpretation.
