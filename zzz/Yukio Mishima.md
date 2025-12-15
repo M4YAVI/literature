@@ -1,0 +1,6 @@
+[[Confessions of a Mask]]
+[[The Temple of the Golden Pavilion]]
+[[Spring Snow]]
+[[Thirst for Love]]
+[[The Sailor Who Fell from Grace with the Sea]]
+[[Patriotism]]

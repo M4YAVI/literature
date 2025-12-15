@@ -5,6 +5,106 @@
       "path": "authors/index.md"
     },
     {
+      "basename": "Doppo Kunikida",
+      "path": "zzz/Doppo Kunikida.md"
+    },
+    {
+      "basename": "Musashino",
+      "path": "zzz/Musashino.md"
+    },
+    {
+      "basename": "Aitei Tsushin",
+      "path": "zzz/Aitei Tsushin.md"
+    },
+    {
+      "basename": "Chūya Nakahara",
+      "path": "zzz/Chūya Nakahara.md"
+    },
+    {
+      "basename": "Atsushi Nakajima",
+      "path": "zzz/Atsushi Nakajima.md"
+    },
+    {
+      "basename": "The Disciple",
+      "path": "zzz/The Disciple.md"
+    },
+    {
+      "basename": "The Master",
+      "path": "zzz/The Master.md"
+    },
+    {
+      "basename": "Meijin-den",
+      "path": "zzz/Meijin-den.md"
+    },
+    {
+      "basename": "The Old Fisherman",
+      "path": "zzz/The Old Fisherman.md"
+    },
+    {
+      "basename": "Li Ling",
+      "path": "zzz/Li Ling.md"
+    },
+    {
+      "basename": "Sangetsuki",
+      "path": "zzz/Sangetsuki.md"
+    },
+    {
+      "basename": "The Moon over the Mountain",
+      "path": "zzz/The Moon over the Mountain.md"
+    },
+    {
+      "basename": "Yukio Mishima",
+      "path": "zzz/Yukio Mishima.md"
+    },
+    {
+      "basename": "Patriotism",
+      "path": "zzz/Patriotism.md"
+    },
+    {
+      "basename": "Confessions of a Mask",
+      "path": "zzz/Confessions of a Mask.md"
+    },
+    {
+      "basename": "Boris Pasternak",
+      "path": "zzz/Boris Pasternak.md"
+    },
+    {
+      "basename": "The Year 1905",
+      "path": "zzz/The Year 1905.md"
+    },
+    {
+      "basename": "Lieutenant Schmidt",
+      "path": "zzz/Lieutenant Schmidt.md"
+    },
+    {
+      "basename": "My Sister—Life",
+      "path": "zzz/My Sister—Life.md"
+    },
+    {
+      "basename": "Doctor Zhivago",
+      "path": "zzz/Doctor Zhivago.md"
+    },
+    {
+      "basename": "index",
+      "path": "animes/index.md"
+    },
+    {
+      "basename": "Bungo stray dogs",
+      "path": "zzz/Bungo stray dogs.md"
+    },
+    {
+      "basename": "carl jung",
+      "path": "zzz/zz/carl jung.md"
+    },
+    {
+      "basename": "index",
+      "path": "movies/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "daily life/images/index.md"
+    },
+    {
       "basename": "Herman Melville",
       "path": "zzz/zz/Herman Melville.md"
     },
@@ -65,20 +165,12 @@
       "path": "zzz/zz/Mardi.md"
     },
     {
-      "basename": "index",
-      "path": "daily life/images/index.md"
-    },
-    {
       "basename": "image gen",
       "path": "zzz/zz/image gen.md"
     },
     {
       "basename": "composition",
       "path": "zzz/zz/composition.md"
-    },
-    {
-      "basename": "index",
-      "path": "movies/index.md"
     },
     {
       "basename": "When You Finish Saving The World",
@@ -101,104 +193,12 @@
       "path": "zzz/zz/Something Wicked This Way Comes.md"
     },
     {
-      "basename": "carl jung",
-      "path": "zzz/zz/carl jung.md"
-    },
-    {
       "basename": "index",
       "path": "wisdom/index.md"
     },
     {
       "basename": "hope is dead",
       "path": "zzz/zz/hope is dead.md"
-    },
-    {
-      "basename": "modren man in search of a soul",
-      "path": "zzz/zz/modren man in search of a soul.md"
-    },
-    {
-      "basename": "The Fog Horn",
-      "path": "zzz/zz/The Fog Horn.md"
-    },
-    {
-      "basename": "There Will Come Soft Rains",
-      "path": "zzz/zz/There Will Come Soft Rains.md"
-    },
-    {
-      "basename": "The Veldt",
-      "path": "zzz/zz/The Veldt.md"
-    },
-    {
-      "basename": "oscar wilde",
-      "path": "zzz/zz/oscar wilde.md"
-    },
-    {
-      "basename": "The Picture of Dorian Gray",
-      "path": "zzz/zz/The Picture of Dorian Gray.md"
-    },
-    {
-      "basename": "The Importance of Being Earnest",
-      "path": "zzz/zz/The Importance of Being Earnest.md"
-    },
-    {
-      "basename": "De Profundis",
-      "path": "zzz/zz/De Profundis.md"
-    },
-    {
-      "basename": "Life story of oscar wilde",
-      "path": "zzz/zz/Life story of oscar wilde.md"
-    },
-    {
-      "basename": "Matthew Gregory Lewis",
-      "path": "zzz/zz/Matthew Gregory Lewis.md"
-    },
-    {
-      "basename": "The monk",
-      "path": "zzz/zz/The monk.md"
-    },
-    {
-      "basename": "García Márquez",
-      "path": "zzz/zz/García Márquez.md"
-    },
-    {
-      "basename": "One Hundred Years of Solitude",
-      "path": "zzz/zz/One Hundred Years of Solitude.md"
-    },
-    {
-      "basename": "There will be blood",
-      "path": "zzz/zz/There will be blood.md"
-    },
-    {
-      "basename": "index",
-      "path": "daily life/best lines/index.md"
-    },
-    {
-      "basename": "No Country for Old Men",
-      "path": "zzz/zz/No Country for Old Men.md"
-    },
-    {
-      "basename": "Cormac McCarthy",
-      "path": "zzz/zz/Cormac McCarthy.md"
-    },
-    {
-      "basename": "wishful",
-      "path": "zzz/zz/wishful.md"
-    },
-    {
-      "basename": "All the Pretty Horses",
-      "path": "zzz/zz/All the Pretty Horses.md"
-    },
-    {
-      "basename": "Cities of the Plain",
-      "path": "zzz/zz/Cities of the Plain.md"
-    },
-    {
-      "basename": "Suttree",
-      "path": "zzz/zz/Suttree.md"
-    },
-    {
-      "basename": "Stella Maris",
-      "path": "zzz/zz/Stella Maris.md"
     }
   ],
   "omittedPaths": [],
