@@ -1,0 +1,1 @@
+She is wearing a thick black coat with a white ruffled Victorian collar.

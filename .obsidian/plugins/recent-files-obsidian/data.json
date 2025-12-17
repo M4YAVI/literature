@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "drawn art",
-      "path": "zzz/drawn art.md"
+      "basename": "dress",
+      "path": "dress.md"
+    },
+    {
+      "basename": "characteris",
+      "path": "characteris.md"
+    },
+    {
+      "basename": "Image prompts",
+      "path": "zzz/Image prompts.md"
     },
     {
       "basename": "artstyles",
       "path": "zzz/artstyles.md"
+    },
+    {
+      "basename": "Female",
+      "path": "Female.md"
+    },
+    {
+      "basename": "expressions",
+      "path": "expressions.md"
+    },
+    {
+      "basename": "hair",
+      "path": "hair.md"
+    },
+    {
+      "basename": "drawn art",
+      "path": "zzz/drawn art.md"
     },
     {
       "basename": "digital art",
@@ -23,10 +47,6 @@
     {
       "basename": "sonny boy art style",
       "path": "zzz/sonny boy art style.md"
-    },
-    {
-      "basename": "Image prompts",
-      "path": "zzz/Image prompts.md"
     },
     {
       "basename": "index",
@@ -175,30 +195,6 @@
     {
       "basename": "inertia or newton first law",
       "path": "zzz/inertia or newton first law.md"
-    },
-    {
-      "basename": "Forces and motion (intuition-level)",
-      "path": "zzz/Forces and motion (intuition-level).md"
-    },
-    {
-      "basename": "reference frames",
-      "path": "zzz/reference frames.md"
-    },
-    {
-      "basename": "Quntum computing",
-      "path": "zzz/Quntum computing.md"
-    },
-    {
-      "basename": "physics in quntum",
-      "path": "zzz/physics in quntum.md"
-    },
-    {
-      "basename": "Heads up in quntum",
-      "path": "zzz/Heads up in quntum.md"
-    },
-    {
-      "basename": "entanglement",
-      "path": "zzz/entanglement.md"
     }
   ],
   "omittedPaths": [],
