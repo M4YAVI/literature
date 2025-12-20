@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "0tech/full stack/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "entertainment/animes/index.md"
+    },
+    {
       "basename": "Human ai",
       "path": "zzz/Human ai.md"
     },
@@ -26,7 +34,7 @@
     },
     {
       "basename": "index",
-      "path": "ai/index.md"
+      "path": "0tech/ai/index.md"
     },
     {
       "basename": "your story",
@@ -38,7 +46,7 @@
     },
     {
       "basename": "index",
-      "path": "phrases/index.md"
+      "path": "entertainment/phrases/index.md"
     },
     {
       "basename": "novel to script format",
@@ -58,7 +66,7 @@
     },
     {
       "basename": "phrases",
-      "path": "daily life/phrases.md"
+      "path": "entertainment/daily life/phrases.md"
     },
     {
       "basename": "index",
@@ -75,10 +83,6 @@
     {
       "basename": "index",
       "path": "education/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "1tech/index.md"
     },
     {
       "basename": "index",
@@ -146,23 +150,23 @@
     },
     {
       "basename": "characteris",
-      "path": "zsds/characteris.md"
+      "path": "zzz/zsds/characteris.md"
     },
     {
       "basename": "dress",
-      "path": "zsds/dress.md"
+      "path": "zzz/zsds/dress.md"
     },
     {
       "basename": "Female",
-      "path": "zsds/Female.md"
+      "path": "zzz/zsds/Female.md"
     },
     {
       "basename": "expressions",
-      "path": "zsds/expressions.md"
+      "path": "zzz/zsds/expressions.md"
     },
     {
       "basename": "hair",
-      "path": "zsds/hair.md"
+      "path": "zzz/zsds/hair.md"
     },
     {
       "basename": "digital art",
@@ -171,10 +175,6 @@
     {
       "basename": "sonny boy art style",
       "path": "zzz/sonny boy art style.md"
-    },
-    {
-      "basename": "index",
-      "path": "entertainment/animes/index.md"
     },
     {
       "basename": "sound smart",
